@@ -1,0 +1,16 @@
+create database BOOKS_CROWN;
+use Books_crown;
+create table LOGIN(
+ID integer(3),
+Name varchar(30),
+Mobile varchar(10),
+Password varchar(20),
+Nationality varchar(15),
+E_Mail varchar(50));
+create table Books(
+ISBN varchar(17),
+Name varchar(50),
+Author varchar(50));
+show tables;
+desc login;
+desc books;
